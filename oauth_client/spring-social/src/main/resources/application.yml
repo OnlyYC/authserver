@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+
+spring:
+    datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://10.128.23.21:3306/spring_social?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        username: syeb
+        password: 123456
+
+my:
+  social:
+    qq:
+      app-id: 100550231
+      app-secret: eag
+logging.level.org.springframework.security: DEBUG

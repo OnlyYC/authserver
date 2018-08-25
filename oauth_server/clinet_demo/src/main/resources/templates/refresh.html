@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html><head><script>
+    if(window.opener && window.opener.oauthLogin){
+        window.opener.oauthLogin();
+        window.opener=null;
+        window.open('', '_self');
+        window.close();
+    } else {
+        var pageUrl = '[[${pageUrl}]]';
+        window.location.href = pageUrl;
+    }
+</script></head>
+<body>跳转中, 请稍后...</body></html>
