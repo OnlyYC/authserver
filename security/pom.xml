@@ -12,7 +12,9 @@
 
     <artifactId>security</artifactId>
     <modules>
-        <module>facelogin</module>
+        <module>authentication</module>
+        <module>access_control</module>
+	    <module>access_control_rbac</module>
     </modules>
 
 
